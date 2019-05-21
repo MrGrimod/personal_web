@@ -27,6 +27,8 @@
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="images/fav.png">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 	<!-- Google Webfonts -->
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -47,7 +49,6 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
 	</head>
 	<body>
 		<header role="banner" id="fh5co-header" style="background-image: url(images/hero-4.jpg);" data-stellar-background-ratio="0.5">
@@ -107,7 +108,7 @@
 
 								</div>
 								<div class="col-md-4 text-center to-animate">
-									<span class="fh5co-counter js-counter" data-from="0" data-to="16" data-speed="6000" data-refresh-interval="50"></span>
+									<span class="fh5co-counter js-counter" data-from="0" data-to="32" data-speed="6000" data-refresh-interval="50"></span>
 
 									<span class="fh5co-counter-label">Completed Projects</span>
 								</div>
@@ -120,8 +121,8 @@
 					</div>
 				</div>
 			</div>
-			<!-- END .container -->
 
+			<!-- END .container -->
 			<div class="container" id="projects-animate">
 				<div class="row row-padded">
 					<div class="col-md-3">
@@ -130,42 +131,94 @@
 					</div>
 					<div class="col-md-8 col-md-push-1">
 						<div class="row">
-							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-								<a href="https://github.com/MrGrimod/gta_self_driving">
-									<div class="fh5co-overlay-text">Gta Self Driving Car<p style="font-size: 70%;">The goal is to program a self-propelled agent, that is capable of driving a car in gtaIV. The agent's driving skills are concentrated on motorways and long straight streets.</p></div>
-									<div class="fh5co-overlay"></div>
-									<img src="images/gta.jpg" alt="err" class="img-responsive">
+							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12">
+								<a href="https://github.com/MrGrimod/dji_naza_interface_c-" target="_blank">
+								<section>
+										<div class="section_title" style=""><h5>DJI Naza V2 Interface</h1></div>
+											<br>
+											<div class="about_section">
+												<span style="">A C++ interface for Raspberry to interact with DJI Naza V2 Flight controller</span>
+											</div>
+										<div class="bottom_section">
+												<span style="margin: 10px; display:inline-block;"><i class="fas fa-code"></i>&nbsp; C++ </span>
+												<span style="margin: 10px;"><i class="fas fa-star"></i>&nbsp; 2</span>
+												<span style="margin: 10px;"><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+										</div>
+								</section>
 								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-								<a href="https://github.com/MrGrimod/intelligent-car">
-									<div class="fh5co-overlay-text">Intelligent Car<p style="font-size: 70%;">The Intelligent Car is a Rc controlled Car, which is capable of detecting faces or obstacles. It can be controlled by Mobile, it also offers different modes to drive with.</p></div>
-									<div class="fh5co-overlay"></div>
-									<img src="images/intelligent_car.jpg" alt="err" class="img-responsive">
+								<a href="https://github.com/MrGrimod/gta_self_driving" target="_blank">
+								<section>
+										<div class="section_title"><h5>GTA Self Driving</h5></div>
+										<br>
+										<div class="about_section">
+										<span style="display:block;">CNN that is trained to drive vehicles in GTA V</span>
+											<br>
+										</div>
+										<div class="bottom_section">
+												<span style="margin: 10px; display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+												<span style="margin: 10px;"><i class="fas fa-star"></i>&nbsp; 4</span>
+												<span style="margin: 10px;"><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+										</div>
+								</section>
 								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-								<a href="https://github.com/MrGrimod/sound-classification_rnn">
-									<div class="fh5co-overlay-text">Sound Classification<p style="font-size: 70%;">This Recurrent Neural Network is trained to differentiate between sounds. The RNN is trained by using example data provided by repo. in Sound-Data folder.</p></div>
-									<div class="fh5co-overlay"></div>
-									<img src="images/sound_class.jpg" alt="err" class="img-responsive">
+								<a href="https://github.com/MrGrimod/sound-classification_rnn" target="_blank">
+									<section>
+											<div class="section_title"><h5>Sound Classification RNN</h5></div><br>
+											<div class="about_section">
+											<span style="display:block;">RNN to classify accents by using YouTube Biritsh and American training samples</span>
+											</div>
+											<div class="bottom_section">
+													<span style="margin: 10px; display:inline-block;"><i class="fas fa-code"></i>&nbsp; Python</span>
+													<span style="margin: 10px;"><i class="fas fa-star"></i>&nbsp; 10</span>
+													<span style="margin: 10px;"><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+											</div>
+									</section>
 								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-								<a href="https://github.com/MrGrimod/Apollo-Internet-controlled-rover">
-									<div class="fh5co-overlay-text">Apollo Internet Controlled Rover<p style="font-size: 70%;">The Apollo Rover is a remote controlled Rover which can be controlled over large distances with almost no delay.</p></div>
-									<div class="fh5co-overlay"></div>
-									<img src="images/apollo.jpg" alt="err" class="img-responsive">
+								<a href="https://github.com/MrGrimod/noaa_satellite_ground_station" target="_blank">
+									<section>
+											<div class="section_title"><h5>NOAA Satellite Ground Station</h5></div><br>
+											<div class="about_section">
+											<span style="display:block;">Easy to build NOAA weather satellite image receiving station, with nothing more than a raspberry pi and a sdr stick as well as an antenna!</span>
+											</div>
+											<div class="bottom_section">
+													<span style="margin: 10px; display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+													<span style="margin: 10px;"><i class="fas fa-star"></i>&nbsp; 1</span>
+													<span style="margin: 10px;"><i class="fas fa-code-branch"></i>&nbsp; 2</span>
+											</div>
+									</section>
 								</a>
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-								<a href="https://github.com/MrGrimod/balancing-robot">
-									<div class="fh5co-overlay-text">Balancing Robot<p style="font-size: 70%;">Program, to balance a two wheel Robot on Y Axis. Made to be used on an Arduino.</p></div>
-									<div class="fh5co-overlay"></div>
-									<img src="images/balance.jpg" alt="err" class="img-responsive">
+								<a href="https://github.com/MrGrimod/ros_airdrop" target="_blank">
+								<section>
+										<div class="section_title"><h5>ROS Airdrop</h5></div><br>
+										<div class="about_section">
+										<span style="display:block;">AirDrop is an autonomous Drone system that uses the Naza V2 Flight controller!</span>
+										</div>
+										<div class="bottom_section">
+												<span style="margin: 10px; display:inline-block;"><i class="fas fa-code"></i>&nbsp; C++</span>
+												<span style="margin: 10px;"><i class="fas fa-star"></i>&nbsp; 0</span>
+												<span style="margin: 10px;"><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+										</div>
+								</section>
 								</a>
 							</div>
-
+							<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
+								<a href="https://github.com/MrGrimod?tab=repositories" target="_blank">
+								<section>
+										<div class="section_title"><h5>More Projects...</h5></div><br>
+										<div class="about_section">
+										<span style="display:block;">Over 37 other Projects </span>
+										</div>
+								</section>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -233,7 +286,7 @@
 			<div class="container" id="footer-animate">
 				<div class="row row-padded">
 					<div class="col-md-8 col-md-push-4">
-						<p class="to-animate">&copy; 2017 Luick K. All Rights Reserved.</p>
+						<p class="to-animate">&copy; 2018 Luick K. All Rights Reserved.</p>
 					</div>
 				</div>
 			</div>
